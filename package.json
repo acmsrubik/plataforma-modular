@@ -1,0 +1,15 @@
+{
+  "name": "plataforma-modular",
+  "version": "1.0.0",
+  "description": "Plataforma modular de gestão",
+  "main": "servidor/servidor.js",
+  "scripts": {
+    "start": "node servidor/servidor.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mysql2": "^3.11.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7"
+  }
+}
